@@ -30,7 +30,8 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	line-height: 1;
+  line-height: 1;
+  font-family: nyt-imperial,georgia,'times new roman',times,serif;
 }
 ol, ul {
 	list-style: none;
@@ -110,6 +111,25 @@ nav .search-icon {
   background-color: #6288a5;
   border: 1px solid #326891;
   color: #fff;  
+}
+/* main */
+.first-title {
+}
+.first-image {
+  width: 945px;
+  height: 532px;
+  margin: 0 auto;
+}
+
+figcaption {
+  color: #666;
+  font-size: 15px;
+  margin: 0 auto;
+  display: block;
+}
+
+figcaption small {
+
 }
 
 /* footer */
