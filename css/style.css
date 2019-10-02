@@ -210,6 +210,7 @@ article.text-section {
   width: 100%;
   position: relative;
   top: 120px;
+  margin-bottom: 16px;
 }
 
 p.text {
@@ -218,6 +219,83 @@ p.text {
   margin: 0 auto 15px;
   width: 600px;
   color: #333;
+}
+
+p.text a {
+  color: #326891;
+}
+
+.mini-section {
+  box-sizing: border-box;
+  max-width: 600px;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 19px;
+  text-align: center;
+  margin: 25px auto;
+  height: 76px;
+  border-top: rgb(192, 190, 190) 1px solid;
+  border-bottom: rgb(192, 190, 190) 1px solid;
+}
+
+.mini-section li,
+.mini-section a {
+  position: relative;
+  top: 15px;
+}
+
+.mini-section a {
+  color: #326891;
+  text-decoration: none;
+}
+/* aside */
+aside.first-aside {
+  float: right;
+  width: 210px;
+  margin-right: 0;
+  margin-left: 75px;
+  display: flex;
+  align-items: center;
+}
+
+button.aside-button {
+  color: rgb(255, 255, 255);
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 12px;
+  text-transform: uppercase;
+  width: 180px;
+  height: 35px;
+  background: rgb(98, 136, 165);
+  border: 1px solid rgb(98, 136, 165);
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+h2.aside-title {
+  font-size: 18px;
+  line-height: 1.5rem;
+  color: #000;
+  font-weight: 700;
+  margin-bottom: 5px;
+  width: 180px;
+}
+
+p.aside-text {
+  margin-bottom: 10px;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 1rem;
+  color: rgb(102, 102, 102);
+  width: 180px;
+  margin-bottom: 10px;
+}
+
+/* second aside */
+
+aside.second-aside {
+  
 }
 /* footer */
 
