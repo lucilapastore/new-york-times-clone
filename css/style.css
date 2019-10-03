@@ -295,7 +295,93 @@ p.aside-text {
 /* second aside */
 
 aside.second-aside {
-  
+  width: 210px;
+  margin: 0 0 0 75px;
+  float: right;
+}
+
+h2.title-two {
+  color: #000;
+  font-size: 14px;
+  margin: 0 0 15px;
+  padding: 0 0 12px;
+  border-bottom: rgb(192, 190, 190) 1px solid;
+}
+
+.aside-photo {
+  width: 75px;
+  height: 75px;
+}
+
+.aside-photo img {
+  width: 100%;
+}
+
+h3.article-title {
+  font-size: 14px;
+  line-height: 17px;
+  color: #333;
+  margin: 5px 0 5px 10px;
+  font-weight: 500;
+  font-family: nyt-cheltenham-small, georgia, "times new roman";
+  display: block;
+  width: 125px;
+}
+
+a.link-photo {
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+  margin-bottom: 15px;
+}
+
+a.link-photo:hover {
+  cursor: pointer;
+  text-decoration: underline;
+  text-decoration-color: #000;
+}
+/* second container */
+.second-container {
+  width: 100%;
+  display: block;
+  position: relative;
+  top: 150px;
+}
+
+header.second-title {
+  width: 945px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container-header {
+  color: #000;
+  font-size: 16px;
+  margin: 0 0 2px;
+  font-weight: 700;
+  font-style: normal;
+  font-family: nyt-cheltenham,georgia,times new roman,times,serif;
+  width: 945px;
+}
+
+p.inflation-text {
+  margin-right: 7px;
+  width: 910px;
+  color: #666;
+  font: 14px nyt-cheltenham,georgia,times new roman,times,serif;
+  line-height: 1.125rem;
+  font-weight: 400;
+  font-style: normal
+}
+.image-container {
+  width: 945px; 
+  height: 576px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.image-container img {
+  width: 100%; 
 }
 /* footer */
 
