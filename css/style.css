@@ -62,6 +62,7 @@ nav {
   background-color: white;
   margin: 0;
   border-bottom: 1px solid #e2e2e2;
+  z-index: 10;
 }
 
 nav .menu-icon {
@@ -382,6 +383,87 @@ p.inflation-text {
 
 .image-container img {
   width: 100%; 
+}
+/* bottom */
+.bigger-container {
+  padding-left: 3%;
+  padding-right: 3%;
+  max-width: 1200px;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: row;
+  margin-top: 45px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
+  padding-left: 41px;
+  padding-right: 41px;
+  box-sizing: border-box;
+}
+
+.big-row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+}
+
+.first-row {
+  width: 852px;
+}
+
+section.row-title {
+  width: 852px;
+  height: 40px;
+  border-top: 1px solid rgb(0, 0, 0);
+}
+
+.six-boxes {
+  width: 100%;
+  justify-content: space-between;
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 15px;
+}
+
+.box-six {
+  max-width: 32%;
+  flex-basis: 32%;
+  flex-grow: 1;
+  padding-bottom: 20px;
+}
+
+.pic-six img {
+  width: 100%;
+}
+
+.right-column {
+  display: flex;
+  flex-direction: column;
+  margin-left: 30px;
+  max-width: 315px;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.375rem;
+  padding-bottom: 15px;
+}
+
+section.column-title {
+  width: 315px;
+  height: 40px;
+  border-top: 1px solid rgb(0, 0, 0);
+  padding: 17px 0 0;
+}
+
+.unordered-list {
+  margin-top: 15px;
+  list-style: none;
+}
+
+.list-item {
+  border-top: 1px solid rgb(226, 226, 226);
+  padding: 15px 0px;
 }
 /* footer */
 
