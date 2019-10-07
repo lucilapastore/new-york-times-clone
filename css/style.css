@@ -51,15 +51,15 @@ table {
 
 /* header */
 
-nav {
+nav.first-nav {
   display: flex;
   align-items: center;
   height: 42px;
-  padding: 5px;
+  padding: 4px 15px 2px;
   width: 100%;
   position: fixed;
   top: 0;
-  background-color: white;
+  background: white;
   margin: 0;
   border-bottom: 1px solid #e2e2e2;
   z-index: 10;
@@ -158,34 +158,6 @@ main {
   font-size: 13px;
   text-align: left;
 }
-/* you tube video section */
-figure.main-video {
-  width: 100%;
-}
-
-iframe.youtube-video {
-  width:560px; 
-  height:315px;
-  position: relative;
-  left: 28%;
-  top: 110px;
-}
-
-figcaption.figcaption-video {
-  color: #666;
-  font-family: nyt-imperial,georgia,'times new roman',times,serif;
-  margin: 10px 20px 0;
-  text-align: left;
-  font-size: 15px;
-  position: relative;
-  top: 110px;
-  left: 27%;
-}
-
-.figcaption-video small {
-  color: #888;
-  font-size: 13px;
-}
 
 .big-first-container {
   display: block;
@@ -194,6 +166,7 @@ figcaption.figcaption-video {
   position: relative;
   top: 100px;
 }
+
 .first-container {
   width: 600px;
   margin-bottom: 20px;
@@ -259,6 +232,12 @@ p.text a {
   color: #326891;
 }
 
+strong.text-title {
+  font-weight: 700;
+  color: #333;
+  font-size: 20px;
+}
+
 .mini-section {
   box-sizing: border-box;
   max-width: 600px;
@@ -282,7 +261,38 @@ p.text a {
   color: #326891;
   text-decoration: none;
 }
+
+/* you tube video section */
+figure.main-video {
+  width: 100%;
+}
+
+iframe.youtube-video {
+  width:560px; 
+  height:315px;
+  position: relative;
+  left: 28%;
+  top: 110px;
+}
+
+figcaption.figcaption-video {
+  color: #666;
+  font-family: nyt-imperial,georgia,'times new roman',times,serif;
+  margin: 10px 20px 0;
+  text-align: left;
+  font-size: 15px;
+  position: relative;
+  top: 110px;
+  left: 27%;
+}
+
+.figcaption-video small {
+  color: #888;
+  font-size: 13px;
+}
+
 /* aside */
+
 aside.first-aside {
   float: right;
   width: 210px;
@@ -374,6 +384,7 @@ a.link-photo:hover {
   text-decoration: underline;
   text-decoration-color: #000;
 }
+
 /* second container */
 .second-container {
   width: 100%;
@@ -416,6 +427,62 @@ p.inflation-text {
 
 .image-container img {
   width: 100%; 
+}
+
+div.img-txt-container {
+  width: 228px;
+  height: 120px;
+  position: absolute;
+}
+
+#img-txt1 {
+  top: 33%;
+}
+
+#img-txt2 {
+  top: 33%;
+  left: 33%;
+}
+
+#img-txt3 {
+  top: 33%;
+  left: 51.0800%;
+}
+
+#img-txt4 {
+  top: 33%;
+  left: 69%;
+}
+
+#img-txt5 {
+  top: 75%;
+}
+
+#img-txt6 {
+  top: 75%;
+  left: 33%;
+}
+
+#img-txt7 {
+  top: 75%;
+  left: 51.0800%;
+}
+#img-txt8 {
+  top: 75%;
+  left: 69%;
+}
+p.image-text {
+  font-family: nyt-franklin,arial,helvetica,sans-serif;
+  font-size: 12px;
+  line-height: 17px;
+  font-weight: 300;
+  color: #000000;
+}
+
+.img-txt-title {
+  font-size: 11px;
+  font-weight: bold;
+  letter-spacing: .05em;
 }
 /* bottom */
 .bigger-container {
