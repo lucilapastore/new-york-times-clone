@@ -140,6 +140,10 @@ main {
 .first-image img {
   width: 100%;
 }
+figure .youtube-video {
+  width:560px; 
+  height:315px;
+}
 
 figcaption {
   color: #666;
@@ -650,6 +654,40 @@ footer.ul.last-list {
   text-transform: capitalize;
 }
 
+figure.photo-wrapper {
+  width: 100%;
+  display: block;
+  margin: 43px auto;
+}
+
+.photo-wrapper img {
+  width: 600px;
+  height: 400px;
+  position: relative;
+  left: 27%;
+  top: 120px;
+}
+
+figcaption.photo-cap {
+  font-size: 15px;
+  line-height: 1.25rem;
+  text-align: left;
+  margin-right: auto;
+  margin-left: auto;
+  color: #666;
+  width: 580px;
+  height: 58px;
+  position: relative;
+  top: 120px;
+  right: 20px;
+  margin-top: 10px;
+}
+
+figcaption.photo-cap small {
+  font-size: 13px;
+  color: #888;
+  letter-spacing: 0.01em;
+}
 
 
 
