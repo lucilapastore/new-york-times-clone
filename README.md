@@ -1,4 +1,4 @@
-# Positioning and Floating Elements [Collaborative Project]
+# Positioning and Floating Elements [Solo Project]
 
 This assignment consists of making a clone of a New York Times article page. These are some of the concepts that I used to built the page:
 
