@@ -489,6 +489,45 @@ p.image-text {
 p#last-paragraph {
   margin-bottom: 130px;
 }
+
+.bottom-of-article {
+  display: block;
+  width: 100%;
+}
+.bottom-text {
+  font-size: 12px;
+  color: #666;
+  width: 600px;
+  height: 32px;
+  margin: 0 auto 1em;
+  line-height: 1rem;
+}
+
+.bottom-text a {
+  color: #666;
+  text-decoration: underline;
+}
+
+.bottom-text a:hover {
+  text-decoration: none;
+}
+
+.social-media-container {
+  display: block;
+  width: 100%;
+}
+
+.ssmm-icons {
+  width: 600px;
+  height: 32px;
+  margin: 1.5rem auto 2rem;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.ssmm-tool-bar {
+
+}
 /* bottom */
 .bigger-container {
   padding-left: 3%;
