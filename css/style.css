@@ -189,7 +189,7 @@ ul.links {
   align-items: center;
 }
 
-p.date {
+li.date {
   display: inline-block;
   font-family: nyt-franklin,helvetica,arial,sans-serif;
   font-size: 13px;
@@ -525,9 +525,6 @@ p#last-paragraph {
   justify-content: flex-end;
 }
 
-.ssmm-tool-bar {
-
-}
 /* bottom */
 .bigger-container {
   padding-left: 3%;
