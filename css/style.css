@@ -620,6 +620,13 @@ footer {
   box-sizing: border-box;
 }
 
+#footer {
+  width: 1200px;
+  height: 56px;
+  padding-top: 9px;
+  border-top: 1px solid #ebebeb;
+}
+
 footer.ul.last-list {
   display: inline-block;
   list-style: none;
@@ -632,7 +639,16 @@ footer.ul.last-list {
   display: inline-block;
   line-height: 20px;
   padding: 0 10px;
-} 
+}
+
+#footer ul li a {
+  color: rgb(153, 153, 153);
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  white-space: nowrap;
+  padding: 10px 0;
+  text-decoration: none;
+  text-transform: capitalize;
+}
 
 
 
