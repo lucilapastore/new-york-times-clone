@@ -22,7 +22,7 @@ time, mark, audio, video {
   padding: 0;
   border: 0;
   font-size: 100%;
-  font: inherit;
+  font-family: inherit;
   vertical-align: baseline;
 }
 
@@ -30,7 +30,7 @@ time, mark, audio, video {
 
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
-	display: block;
+  display: block;
 }
 
 body {
@@ -39,11 +39,11 @@ body {
 }
 
 ol, ul {
-	list-style: none;
+ list-style: none;
 }
 
 blockquote, q {
-	quotes: none;
+ quotes: none;
 }
 
 blockquote:before, blockquote:after,
@@ -270,8 +270,8 @@ strong.text-title {
   text-align: center;
   margin: 25px auto;
   height: 76px;
-  border-top: rgb(192, 190, 190) 1px solid;
-  border-bottom: rgb(192, 190, 190) 1px solid;
+  border-top:  rgb(192, 190, 190) 1px solid;
+  border-bottom:  rgb(192, 190, 190) 1px solid;
 }
 
 .mini-section li,
@@ -505,7 +505,7 @@ p.image-text {
   font-size: 12px;
   line-height: 17px;
   font-weight: 300;
-  color: #000000;
+  color: #000;
 }
 
 .img-txt-title {
@@ -670,14 +670,14 @@ li.list-item {
   border-top: 1px solid rgb(226, 226, 226);
   padding: 15px 0px;
   font-size: 19px;
-  color: #121212;
+  color: #121;
   font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
   font-weight: 500;
 }
 
 li.list-item a {
   text-decoration: none;
-  color: #121212;
+  color: #121;
 }
 
 li.list-item a:hover {
@@ -790,6 +790,7 @@ ul.unordered-list {
   white-space: nowrap;
   margin-bottom: 5px;
 }
+
 /* last little column */
 
 .last-little-column li a svg {
