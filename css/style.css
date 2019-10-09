@@ -50,11 +50,11 @@ body {
 
 ol,
 ul {
- list-style: none;
+  list-style: none;
 }
 
 blockquote, q {
- quotes: none;
+  quotes: none;
 }
 
 blockquote::before, blockquote::after,
@@ -65,8 +65,8 @@ q::after {
 }
 
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
 /* header */
@@ -100,7 +100,7 @@ table {
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.7px;
-  line-height: 19px;  
+  line-height: 19px;
 }
 
 .space a {
@@ -119,10 +119,7 @@ table {
   padding: 11px 12px 8px;
   border-radius: 3px;
   cursor: pointer;
-  font-family: nyt-franklin,
-  helvetica,
-  arial,
-  sans-serif;
+  font-family: helvetica, arial, sans-serif;
   background-color: #6288a5;
   border: 1px solid #326891;
   color: #fff;
@@ -132,14 +129,10 @@ table {
   padding: 11px 12px 8px;
   border-radius: 3px;
   cursor: pointer;
-  font-family: 
-  nyt-franklin,
-  helvetica,
-  arial,
-  sans-serif;
+  font-family: helvetica, arial, sans-serif;
   background-color: #6288a5;
   border: 1px solid #326891;
-  color: #fff;  
+  color: #fff;
 }
 
 /* main */
@@ -173,12 +166,7 @@ main {
   font-size: 15px;
   max-width: 720px;
   color: #666;
-  font-family: 
-  nyt-imperial,
-  georgia,
-  'times new roman',
-  times,
-  serif;
+  font-family: georgia, 'times new roman', times, serif;
   margin: 10px 20px 0 0;
   text-align: left;
   display: block;
@@ -279,8 +267,8 @@ strong .text-title {
   text-align: center;
   margin: 25px auto;
   height: 76px;
-  border-top:  rgb(192, 190, 190) 1px solid;
-  border-bottom:  rgb(192, 190, 190) 1px solid;
+  border-top: rgb(192, 190, 190) 1px solid;
+  border-bottom: rgb(192, 190, 190) 1px solid;
 }
 
 .mini-section li,
@@ -301,8 +289,8 @@ strong .text-title {
 }
 
 .youtube-video {
-  width:560px; 
-  height:315px;
+  width: 560px;
+  height: 315px;
   position: relative;
   left: 28%;
   top: 110px;
@@ -310,7 +298,7 @@ strong .text-title {
 
 .figcaption-video {
   color: #666;
-  font-family: nyt-imperial,georgia,'times new roman',times,serif;
+  font-family: georgia,'times new roman', times, serif;
   margin: 10px 20px 0;
   text-align: left;
   font-size: 15px;
@@ -455,14 +443,14 @@ strong .text-title {
 }
 
 .image-container {
-  width: 945px; 
+  width: 945px;
   height: 576px;
   margin-right: auto;
   margin-left: auto;
 }
 
 .image-container img {
-  width: 100%; 
+  width: 100%;
 }
 
 .img-txt-container {
