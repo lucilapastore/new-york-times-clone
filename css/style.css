@@ -121,11 +121,13 @@ ul {
   list-style: none;
 }
 
-blockquote, q {
+blockquote,
+q {
   quotes: none;
 }
 
-blockquote::before, blockquote::after,
+blockquote::before,
+blockquote::after,
 q::before,
 q::after {
   content: '';
@@ -772,7 +774,7 @@ strong .text-title {
 
 .go-to-homepage a {
   color: rgb(98, 136, 165);
-  font-family:  Georgia, 'Times New Roman', Times, serif;
+  font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 11px;
   font-style: normal;
   font-weight: 400;
@@ -798,7 +800,7 @@ strong .text-title {
   color: rgb(51, 51, 51);
   font-size: 13px;
   font-weight: 700;
-  font-family:  Georgia, 'Times New Roman', Times, serif;
+  font-family: Georgia, 'Times New Roman', Times, serif;
   height: 25px;
   line-height: 15px;
   text-transform: uppercase;
@@ -816,7 +818,7 @@ strong .text-title {
 .unordered-list li a {
   color: rgb(0, 0, 0);
   display: inline-block;
-  font-family:  Georgia, 'Times New Roman', Times, serif;
+  font-family: Georgia, 'Times New Roman', Times, serif;
   text-transform: capitalize;
   width: 150px;
   font-size: 14px;
@@ -835,7 +837,7 @@ strong .text-title {
 .last-little-column li a {
   color: rgb(0, 0, 0);
   display: inline-block;
-  font-family:  Georgia, 'Times New Roman', Times, serif;
+  font-family: Georgia, 'Times New Roman', Times, serif;
   text-transform: capitalize;
   width: 150px;
   font-size: 16px;
@@ -874,7 +876,7 @@ strong .text-title {
 .alternate-links li a {
   color: rgb(0, 0, 0);
   display: inline-block;
-  font-family:  Georgia, 'Times New Roman', Times, serif;
+  font-family: Georgia, 'Times New Roman', Times, serif;
   text-transform: capitalize;
   width: 150px;
   font-size: 11px;
@@ -909,6 +911,14 @@ footer {
   display: inline-block;
   line-height: 20px;
   padding: 0 10px;
+}
+
+.bottom-text a:hover {
+  text-decoration: none;
+}
+
+.list-item a:hover {
+  color: gray;
 }
 
 #footer {
@@ -960,12 +970,4 @@ footer {
   font-size: 13px;
   color: #888;
   letter-spacing: 0.01em;
-}
-
-.bottom-text a:hover {
-  text-decoration: none;
-}
-
-.list-item a:hover {
-  color: gray;
 }
