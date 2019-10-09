@@ -185,6 +185,11 @@ table {
   margin: 0 auto;
 }
 
+.logo-nyt {
+  position: relative;
+  bottom: 8px;
+}
+
 .button1 {
   padding: 11px 12px 8px;
   border-radius: 3px;
@@ -193,6 +198,8 @@ table {
   background-color: #6288a5;
   border: 1px solid #326891;
   color: #fff;
+  margin-right: 3px;
+  height: 32px;
 }
 
 .button2 {
@@ -203,6 +210,7 @@ table {
   background-color: #6288a5;
   border: 1px solid #326891;
   color: #fff;
+  height: 32px;
 }
 
 /* main */
@@ -222,9 +230,15 @@ main {
   margin-bottom: 20px;
 }
 
+.main-article-title {
+  display: flex;
+  justify-content: center;
+  height: 96px;
+}
+
 .first-image {
   width: 945px;
-  height: 532px;
+  height: 531px;
   margin: 0 auto;
   cursor: pointer;
 }
@@ -260,10 +274,15 @@ main {
 
 .first-container {
   width: 600px;
+  height: 70px;
   margin: 0 auto 20px;
 }
 
 .author {
+  font-size: 15px;
+  line-height: 1.25rem;
+  letter-spacing: 0.02em;
+  font-weight: 700;
   color: #333;
   margin-bottom: 15px;
 }
@@ -301,6 +320,16 @@ a .author {
   padding: 5px;
   width: 15px;
   height: 15px;
+}
+
+.last-one {
+  position: relative;
+  bottom: 8px;
+}
+
+.sm-icon {
+  position: relative;
+  bottom: 20px;
 }
 
 .text-section {
@@ -970,4 +999,27 @@ footer {
   font-size: 13px;
   color: #888;
   letter-spacing: 0.01em;
+}
+
+.last-footer {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  height: 55px;
+  width: 1200px;
+  padding-right: 20px;
+  padding-left: 20px;
+  margin: 0 auto;
+  position: fixed;
+  bottom: 0;
+  border-top: 1px solid #888;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: white;
+  cursor: pointer;
+}
+
+.last-footer-text {
+  text-align: center;
+  font-size: 15px;
+  line-height: 17px;
 }
