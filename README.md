@@ -5,7 +5,7 @@ This is part of a series of projects to be completed by [Microverse](microverse.
 This assignment consists of making [this](https://www.nytimes.com/2014/03/18/science/space/detection-of-waves-in-space-buttresses-landmark-theory-of-big-bang.html?_r=0) clone of a New York Times article page.
 
 # Live Version:
-The demo page can be found [here](#)
+The demo page can be found [here](https://lucilapastore.github.io/new-york-times-clone/)
 
 # Acknowledgements
 These are some of the concepts that I used to built the page:
